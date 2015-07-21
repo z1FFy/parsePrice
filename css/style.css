@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    font-size:20px;
+    font-family:"Myriad Pro", sans-serif;
+}
+.block {
+    max-width: 800px;
+    border: 20px solid rgba(27, 30, 27, 0.49);
+    background-size:cover;
+    background-color:#fff;
+    margin:20px auto;
+    width:70%;
+    padding: 30px;
+    color: #1b1e1b;
+    text-align: center;
+}
+h1,h2,h3 {
+    margin: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#msgParse,#msgSend {
+    color:green;
+}
+
+button {
+    font-size:20px;
+    padding: 10px;
+    background-color: #0962b9;
+    color:#fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0c5d80;
+}
+
+select[name=type] {
+    width:250px;
+}
+
+i {
+    font-size: 14px;
+}
+
+.nomargintop {
+    margin-top: 0;
+}
+
+input[type=text] {
+    border: 2px solid #0962b9;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    width:200px;
+}
